@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper button {
+  padding: 20px;
+  border: none;
+  color: #fff;
+  /* fallback color */
+  background-color: #000;
+  background-image: linear-gradient(#614101, #747474);
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.accordian {
+  max-width: 500px;
+}
+
+.item {
+  background: #614101;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.title {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  color: #fff;
+  height: auto;
+}
