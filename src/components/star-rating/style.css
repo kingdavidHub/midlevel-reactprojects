@@ -1,0 +1,20 @@
+
+
+.star-container {
+  height: 100vh;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.active {
+  color: hsla(58, 100%, 50%, 0.854);
+}
+
+.inactive {
+  color: #000;
+}
