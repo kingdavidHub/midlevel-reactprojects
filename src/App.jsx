@@ -4,6 +4,8 @@ import ImageSlider from "./components/imgae-slider/ImageSlider";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import RandomColor from "./components/random-color/RandomColor";
 import Star from "./components/star-rating/Star";
+import TreeView from "./components/tree-view/TreeView";
+import menus from "./components/tree-view/data";
 
 
 
@@ -24,6 +26,10 @@ function App() {
 
       {/* Load more data */}
       <LoadMoreData />
+
+      {/* Tree  view recursive UI || recursive navigation */}
+      {/* <TreeView menus={menus} /> */}
+
 
     </>
   );

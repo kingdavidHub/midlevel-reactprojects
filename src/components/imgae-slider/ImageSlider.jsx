@@ -35,6 +35,24 @@ const ImageSlider = ({ url, page = 1, limit = 5 }) => {
   };
 
   // Explain to the interviewer providing a conditional if the URL is empty or not
+  //Runs on the first render
+  //And any time any dependency value changes
+  useEffect(() => {
+    if (url !== "") {
+      // call some API
+      fetchImages(url);
+    }
+
+    if (loading) {
+      // return <div>Loading data please wait</div>;
+      toast("🚀 Data processed.")
+    }
+
+    if (errorMsg !== null) {
+      // return <div>Error occured ! {errorMsg}</div>;
+       toast(`🦄 ${errorMsg}`);
+    }
+  }, [url]);
   useEffect(() => {
     if (url !== "") {
       // call some API
