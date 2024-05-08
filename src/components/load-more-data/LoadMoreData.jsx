@@ -51,6 +51,7 @@ const LoadMoreData = () => {
   }, [count]);
 
   useEffect(() => {
+    // limit of 100 products
     if (products && products.length === 100) {
       setDisableBtn(true);
     }

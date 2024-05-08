@@ -25,10 +25,10 @@ function App() {
       {/* <ImageSlider url={`https://picsum.photos/v2/list`} limit={"10"} page={"1"} /> */}
 
       {/* Load more data */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
 
       {/* Tree  view recursive UI || recursive navigation */}
-      {/* <TreeView menus={menus} /> */}
+      <TreeView menus={menus} />
 
 
     </>
