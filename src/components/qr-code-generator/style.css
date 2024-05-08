@@ -1,0 +1,60 @@
+.qrcode {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.qrcode-container {
+  max-width: 500px;
+}
+
+.qrcode-container h1 {
+  padding: 1rem;
+  text-align: center;
+}
+
+.qrcode-form {
+  width: 90%;
+  /* background-color: red; */
+  margin: 1rem auto;
+}
+
+.qrcode-form input {
+  height: 2rem;
+  width: 70%;
+  text-align: center;
+  border: none;
+  border: 1px solid black;
+  margin-right: 0.5rem;
+}
+
+.qrcode-form input,
+.qrcode-form .button-allowed,
+.qrcode-form .button-disabled {
+  border-radius: 10px;
+}
+
+.qrcode-form .button-allowed {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.qrcode-form .button-disabled {
+  cursor: not-allowed;
+  color: #fff;
+  background-color: grey;
+}
+
+.qrcode-form .button-allowed,
+.qrcode-form .button-disabled {
+  border: none;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+}
